@@ -8,5 +8,7 @@ Descriçao do projeto:
     A calculadora deve ter uma formatação adequada e de fundo azul
 
 Autor:
-    LuísH-Brito
+    LuisH-Brito
+    Kelvin-Moreira
+
 
