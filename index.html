@@ -4,9 +4,11 @@
     <title>Portal do IMC</title>
 </head>
 <body>
-    <h1>Índice de Massa Corporal</h1>
-    <p>Para obter o IMC, divida seu peso(em quilos) pela altura (em metros) elevada ao quadra(altura x altura). É saudável entre 18,5 e 24,9..</p>
-    <h1>Tabela de IMC</h1>
+    <h1>Índice de massa corporal</h1>
+    <p>Para obter o IMC, divida seu peso (em quilos) pela altura (em metros)
+    elevada ao quadrado (altura x altura). É saudável entre 18,5 e 24,9..</p>
+<br/>
+  <h1>Tabela de IMC</h1>
     <table>
             <tr>
                 <th>Categoria</th><th>Intervalo de IMC</th>
@@ -20,5 +22,24 @@
                 <td>Obesidade</td><td>Acima de 30</td>
             </tr>
     </table>
+<div class=tela1>
+    <h1>Calculadora IMC HTML CSS JS</h1>
+    <form>
+        <p>Digite seu peso</p>
+
+        <input id='peso' type='number'/>
+        <span>Kg</span>
+        <div>
+            <p>Digite sua altura</p>
+            <input id='altura' type='number'/>
+            <span>Cm</span>
+        </div>
+        <div>
+            <input id='btn_calcular' class='botao' type="button" value="Calcular">
+        </div>
+    </form>
+    <div id="resultado"></div>
+</div>
+    <script src="scripts.js"></script>
 </body>
 </html>
