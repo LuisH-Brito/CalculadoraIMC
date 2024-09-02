@@ -1,7 +1,9 @@
 body{
     justify-content: center;
   }
-  
+  .titulo1{
+    text-align: center;
+  }
   .tela1{
     border: 5px #ddd;
     box-shadow: 0px 0px 10px;
